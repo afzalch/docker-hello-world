@@ -25,5 +25,5 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image to Docker Hub and ECR
-      - docker push public.ecr.aws/z9p7l6s8/hello-world-python:latest
+      - docker push public.ecr.aws/u5c7b9r1/hello-world-python:latest
       - docker push afzalmc/hello-world-python:latest
